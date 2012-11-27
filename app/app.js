@@ -277,7 +277,7 @@
                 Juicy.ctx.fillStyle = "rgb(29, 150, 28)";
             }
             Juicy.ctx.fillRect(this.x, this.y, this.width, this.height);
-            Juicy.drawText(this.text, this.x + 10, this.y + 30, "black", "bold 16px Comic Sans MS");
+            Juicy.drawText(this.text, this.x + 20, this.y + 30, "black", "bold 16px Comic Sans MS");
         },
         change: function () {
             if (this.isClicked()) {
